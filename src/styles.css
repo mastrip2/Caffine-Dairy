@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+img {
+  max-width:100%
+}
+header{
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+header .logo{
+  color: #121416!important;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+#fill{
+  background-color: green;
+  height: 0%;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+.graph{
+      border: 1px solid #000;
+      position: relative;
+      height: 300px;
+      width: 150px;
+}
+#cons-disclaimer{
+  font-size: 12px;
+}
+.cal-count{
+  size: 12px;
+}
+.drink-choice .item:hover {
+  cursor: pointer;
+}
+.drink-choice .selected{
+  border:1px solid red;
+}
+/* .drink-choice .item img{
+  max-width: 150px;
+  height: auto;
+} */
+form .number-container, form .number-container-right{
+  display: inline-block;
+}
+form .number-container{
+  vertical-align: top;
+}
+form .number-circle{
+  border: 1px solid #000;
+  padding: 10px 16px;
+  margin-bottom: 10px;
+}
